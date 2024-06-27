@@ -157,9 +157,6 @@ controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
 sprites.onOverlap(SpriteKind.Player, SpriteKind.bbbtttgggg, function (sprite, otherSprite) {
     info.changeLifeBy(-1)
 })
-controller.A.onEvent(ControllerButtonEvent.Released, function () {
-	
-})
 sprites.onOverlap(SpriteKind.Projectile, SpriteKind.bbbtttgggg, function (sprite, otherSprite) {
     sprites.destroy(otherSprite, effects.coolRadial, 500)
 })
